@@ -62,3 +62,7 @@ React normally blocks rendering while handling state updates. This can cause jan
 ## useDeferredValue()
 
 useDeferredValue is a React 18+ hook that allows you to defer updating a value until the browser is less busy, helping avoid UI jank during expensive renders.
+
+## useActionState()
+
+The useActionState hook is a new React hook introduced in React 18.2 (experimental) and further refined in React 19+ (currently in beta or Canary builds). It is designed for form actions in React Server Components (RSC), especially when using the new Server Actions API.
