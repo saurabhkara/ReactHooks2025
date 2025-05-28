@@ -66,3 +66,7 @@ useDeferredValue is a React 18+ hook that allows you to defer updating a value u
 ## useActionState()
 
 The useActionState hook is a new React hook introduced in React 18.2 (experimental) and further refined in React 19+ (currently in beta or Canary builds). It is designed for form actions in React Server Components (RSC), especially when using the new Server Actions API.
+
+## useFormStatus()
+
+useFormStatus is a new React 18+ hook (especially useful in React 19 and Next.js App Router) that allows you to track the status of a form submission — specifically when using React Server Actions with a <form>.

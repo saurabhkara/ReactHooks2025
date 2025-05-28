@@ -1,5 +1,6 @@
 import React, { useActionState } from "react";
 import loginApi from "./dummyApi/index.js";
+import Component1 from "./component/Component1.jsx";
 
 export default function Example8() {
   const handleSubmit = async (preData, FormData) => {
@@ -34,7 +35,8 @@ export default function Example8() {
         <label>Password</label>
         <input type="text" name="password" />
         <br />
-        <button type="submit">Submit</button>
+        {/* <button type="submit">Submit</button> */}
+        <Component1 />
       </form>
       {isPending && <p>Pending</p>}
       {user.data && <p>Login successfully</p>}
