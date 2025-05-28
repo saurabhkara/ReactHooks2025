@@ -49,3 +49,16 @@ useReducer is a React Hook that provides an alternative to useState for complex 
 ## useImperativeHandle()
 
 useImperativeHandle is an advanced React Hook that lets you customize the instance value that is exposed to parent components when using ref.
+
+## useId()
+
+useId is a React hook introduced in React 18 to generate unique IDs that are consistent across server and client renders. It's mainly used for accessibility attributes like id, aria-labelledby, htmlFor, etc.
+
+## useTransition()
+
+useTransition is a React Hook introduced in React 18 for managing transitions between UI states — especially when updating non-urgent parts of the UI (like lists, filters, or searches). It helps keep the interface responsive while deferring expensive updates.
+React normally blocks rendering while handling state updates. This can cause jank or UI freezes for large or complex updates.
+
+## useDeferredValue()
+
+useDeferredValue is a React 18+ hook that allows you to defer updating a value until the browser is less busy, helping avoid UI jank during expensive renders.
