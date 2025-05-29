@@ -70,3 +70,7 @@ The useActionState hook is a new React hook introduced in React 18.2 (experiment
 ## useFormStatus()
 
 useFormStatus is a new React 18+ hook (especially useful in React 19 and Next.js App Router) that allows you to track the status of a form submission — specifically when using React Server Actions with a <form>.
+
+## useOptimistic()
+
+The useOptimistic hook is a new hook introduced in React 19 (currently in canary or beta releases). It's designed to simplify optimistic UI updates, especially when using React Server Actions.
